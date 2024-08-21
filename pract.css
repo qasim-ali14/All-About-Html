@@ -1,0 +1,77 @@
+/* this is combinator */
+div>p{
+    color: green;
+
+}
+h3{
+    color: red;
+
+}
+#nbtn{
+  color: black;
+  background-color: white;
+  border: 1px solid black;
+
+}
+#obtn{
+  background-color: red;
+  color: white;
+  border: 1.5px solid black;
+}
+input[type="text"]{
+    background-color: tomato;
+    border: 1px solid black;
+    color: rgb(226, 58, 58);
+}
+input[type="password"]{
+    background-color: tomato;
+    border: 1px solid black;
+
+    color: rgb(247, 136, 136);
+}
+nav ul li a{
+    color: red;
+}
+.containor h3 {
+    color: rgb(120, 120, 251);
+}
+.containor h3 a{
+    background-color: yellow;
+    color: black;
+}
+#btn{
+    background-color: green;
+    color: black;
+    border: 1.5px solid black;
+    box-shadow: 19px;
+
+}
+#bbtn{
+    background-color: rgb(87, 87, 169);
+    border: 1px solid black;
+    color: black;
+}
+.containor p{
+    color: red;
+    text-decoration: teal double underline;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
