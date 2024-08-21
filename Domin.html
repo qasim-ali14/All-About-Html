@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+<!-- <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -11,12 +11,42 @@
      <p>this is going to massive journey</p>
      <a href="https://www.google.com">google</a>
     </header>
-    <script>
+    <script src="script.js">
+    </script>
+</body>
+</html> -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Update List Items</title>
+</head>
+<body>
+    <ul id="itemList">
+        <li>Item 1</li>
+        <li>Item 2</li>
+    </ul>
+    <button id="addItemButton">Add Item</button>
 
-        let con=  document.getElementById('containor');
-        console.log(con);
-        let conn= document.querySelector("p");
-        console.log(conn.textContent);
+    <script>
+        // Select the unordered list and the button
+        const itemList = document.getElementById('itemList');
+        const addItemButton = document.getElementById('addItemButton');
+
+        // Add event listener to the button to add a new item
+        addItemButton.addEventListener('click', () => {
+            // Create a new list item
+            const newItem = document.createElement('li');
+            newItem.textContent = `Item ${itemList.children.length + 1}`;
+
+            // Add the new item to the list
+            itemList.appendChild(newItem);
+        });
+
+        // Update the text of the first item
+        const firstItem = itemList.children[0];
+        firstItem.textContent = 'Updated Item 1';
     </script>
 </body>
 </html>
