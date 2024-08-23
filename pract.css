@@ -56,11 +56,29 @@ nav ul li a{
     text-decoration: teal double underline;
 
 }
+/* now we have to practice aboput the pseodu classses  */
+button:hover{
+    background-color: black;
+    color: white;
+}
 
+ h3 button:hover{ */* when we mouse ove that will change */
+    background-color: black;
+    color: white;
+}
+.containor button:active{ /* when we click on that that will change */
+    background-color: rgb(25, 17, 94);
+    color: rgb(18, 18, 17);
+}
+/* two button at the start are not changing from hover or active 
+because their is a specifically theory behinf that 
+like when we are give that button prroperty by their classes or id then they not going to change
+ */
+ input[type=radio]:checked + label{
+    color: red;
+    font-weight:900 ;
 
-
-
-
+ }
 
 
 
