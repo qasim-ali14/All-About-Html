@@ -62,7 +62,7 @@ button:hover{
     color: white;
 }
 
- h3 button:hover{ */* when we mouse ove that will change */
+ h3 button:hover{ /* when we mouse ove that will change */
     background-color: black;
     color: white;
 }
@@ -72,13 +72,47 @@ button:hover{
 }
 /* two button at the start are not changing from hover or active 
 because their is a specifically theory behinf that 
-like when we are give that button prroperty by their classes or id then they not going to change
+like when we are give that button property by their classes or id then they not going to change
  */
  input[type=radio]:checked + label{
     color: red;
     font-weight:900 ;
+ }
+ /* now we have to practice aboput the pseodu classses  */
+ main:nth-of-type(3n){
+    background-color: aqua;
 
  }
+ /* talk about the specifically
+ that what we are using when we giving the properties
+ id>class>element
+ according to this scores properties changed */
+ h3{
+    background-color: rgb(64, 84, 78);
+ }
+  
+ .section{
+    font-family: 'Courier New';
+ }
+ h2{
+    color: blue;
+    font-size: xx-large;
+    font-family: 'Courier New', Courier, monospace;
+
+
+ }
+ #section button{
+    background-color: aqua;
+    border: 2px solid black;
+    padding: 0px 5px;
+
+ }
+ #section #search{
+    background-color: black;
+    color: white;
+
+ }
+
 
 
 
