@@ -112,11 +112,70 @@ like when we are give that button property by their classes or id then they not 
     color: white;
 
  }
+/* ////css of the inheritance file: */
+.sect{
+    background-image: linear-gradient(to right top, #9f8493, #987390, #8d6391, #7b5594, #604a99, #4f52a2, #3759aa, #0060b0, #0074b2, #008095, #008766, #388934);
+    width: 50%;
+    margin: auto;
+    border-radius: 10%;
+    box-shadow: 200px;
+    box-decoration-break: slice;
 
 
+}
+
+/* first he inerit the property of his parents
+but when we give him his he will apply that */
+ .sect p{
+    background-color:url("https://colorhunt.co/palette/ff204ea0153e5d0e4100224d");
+    font-size: 24px;
+
+ }
+ /* then he override the property of his parent */
+/* but not all the elements do the same thing.
+like button or input does not inherit prop stright away.containor */
+/* now when we write the inherit then i will aplly tot these elements */
+.sect button{
+    background-color: inherit;
+}
+.sect input{
+    background-color: inherit;
+}
+#inline{
+    background-color: yellow;
+    color: black;
+}
+
+/* css of inline vs block level
+ also we can make any block level into inline just giving inline property */
+#inline p{
+    display: block;
+    position: relative;
+    width: 50%;
+    margin: auto;
+    border: 2px dotted firebrick;
+    padding: 20px;
+    height: 200px;
+    margin-top: 10rem;
+}
+#myCanvas{
+   color: #0060b0;
+   position: absolute;
+   top: 140px;
+   left: 38rem;
 
 
-
+}
+/* //we can make any inline element into block level by just givinh property */
+#inline span{
+    display: block;
+}
+ /* now margin and padding properties not completely applied into inline  */
+ #inline span{
+    display: inline;
+    margin: 20px;
+    border: 2px solid darkblue;
+ }
 
 
 
