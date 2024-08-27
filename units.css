@@ -1,0 +1,57 @@
+ *{
+    margin: 0;
+    padding:0;
+
+}
+body{
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+    background-color: #f1f1f1;
+    color: #f1f1f1;
+
+}
+/* 
+  Here we have three relative units like % and em change according to the parent 
+  the other one  which is rem change according to the root value or value which 
+  we set in html document.
+  16px=1rem */
+html{
+    font-size: 16px;
+}
+p{
+    
+    background-color: blueviolet;
+    width: 41.2rem;
+    height:200px;
+    margin: 0 auto;
+    margin-top: 6px;
+    border:4px solid rgb(181, 79, 79);
+    box-sizing: border-box;
+     transition-duration:  2s; /* how much time took to transition from one to other state */
+    transition-delay: 2s;/*after how much time transition stayed */
+    transition: margin-top 2s ease-in 1s ;
+
+  }
+p:hover{
+  margin-top: 500px;
+  background-color: bisque;
+}
+.parent {
+    position: relative;
+    width: 800.8px;
+    height: 400px;
+    margin: 0 auto;
+    background-color: lightgray;
+  }
+
+  .child {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 100%;
+    padding: 20px;
+    background-color: rgb(26, 46, 53);
+    text-align: center;
+    box-sizing: border-box;
+  } 

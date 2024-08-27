@@ -149,12 +149,13 @@ like button or input does not inherit prop stright away.containor */
 /* css of inline vs block level
  also we can make any block level into inline just giving inline property */
 #inline p{
-    display: block;
+    display: inline-block;
     position: relative;
     width: 50%;
     margin: auto;
     border: 2px dotted firebrick;
     padding: 20px;
+    
     height: 200px;
     margin-top: 10rem;
 }
@@ -166,7 +167,8 @@ like button or input does not inherit prop stright away.containor */
 
 
 }
-/* //we can make any inline element into block level by just givinh property */
+/* //we can
+ make any inline element into block level by just givinh property */
 #inline span{
     display: block;
 }
