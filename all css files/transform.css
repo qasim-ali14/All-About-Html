@@ -1,0 +1,98 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    
+    background-size: contain;
+    background-repeat: no-repeat;
+    
+}
+/* section{
+    padding: 5px;
+}
+div{
+    border: 1px solid rgb(5, 37, 37);
+    width: 250px;
+    height: 100px;
+    margin: auto;
+    margin-top: 10px;
+    text-align: center;
+    color: rgb(16, 19, 19);
+    padding: 2px;
+    background-color: antiquewhite;
+    border-radius: 2px;
+
+}
+div:nth-last-of-type(2n){
+    background-color: aqua;
+
+}
+div:nth-of-type(3n){
+    background-color: blueviolet;
+}
+  /* transform 
+  #one{
+    transform: rotate(90deg);
+    transform: rotate(360deg);
+  }
+  #two{
+    transform: scale(1);
+   /* transform: scale(1.5,2.4);   we can give sepratrly like for x-axis and y-axis 
+    transform: scaleX(1.5);
+}
+#three{
+   transition: translateY 0.1s ease-in;
+}
+#three:hover{
+    transform: translateY(-10px);
+}
+#four{
+    transform: skew(30deg);
+}
+#five{
+     box-shadow: 2px 4px 5px green;/* here first we have x-axis offset and y-axis offset 
+    then we have blur radius and then a colour. 
+    transition: translateY 2s ease-in;
+}
+#five:hover{
+    transform: translateY(-9px);
+} */
+.container{
+    color: aliceblue;
+    
+}
+.card{
+    display: inline-block;
+    width: 300px;
+   color: rgb(21, 43, 62);
+    box-sizing: border-box;
+    padding: 2px;
+    border: 2px solid rgb(243, 243, 243);
+    box-shadow: 2px 4px 5px rgba(136, 96, 96, 0.3);
+    overflow: hidden;
+    transition: transform 1s ease-in;
+   
+}
+
+img{
+    width: 98%;
+    height: 100%;
+    border-radius: 2px 2px 0px 0px ;
+    object-fit: cover;
+    margin: 2px;
+}
+@media (max-width:500px){
+    .card{
+        width: 100%;
+        margin:  4px;
+    }
+    img{
+        width: 100%;
+    }
+}
+.card:hover{
+    box-shadow: 4px 4px 5px rgb(61, 60, 60);
+    transform: translateY(-2px);
+
+}
